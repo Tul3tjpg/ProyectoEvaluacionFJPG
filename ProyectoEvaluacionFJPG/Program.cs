@@ -14,7 +14,7 @@
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine($"Estudiante {nombre}, calificacion {calificacion}. Reprobado.");
             }
-            else if (calificacion >= 80)
+            else if (calificacion >= 70)
             {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine($"Estudiante {nombre}, calificacion {calificacion}. Aprobado.");
